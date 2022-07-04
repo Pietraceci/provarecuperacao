@@ -1,11 +1,11 @@
-import "./Button.css"
-function Button(){
+import "./Menu.css"
+function Menu(){
 
     return(
         <div className='container'>
-            <div className="container1">
-            <ol className="list">
-            <div className="img">
+         
+            <ol className="lista">
+            <div className="image">
             <img src="logo.svg" />
             </div>
            
@@ -13,14 +13,14 @@ function Button(){
               <li>Restaurante e Mercado</li>
               <li>Carreiras</li>
               <li>iFood Card </li>
+
               <button className="but">Criar conta</button>
             <button className="bu">Entrar </button>
-            </ol>
-
-            </div>
              
+            </ol>
             <h1 className="h1">Destaques</h1>
         </div>
     );
+    
 }
-export default Button;
+export default Menu;

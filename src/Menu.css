@@ -1,4 +1,4 @@
-.list{
+.lista{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -7,7 +7,11 @@
     margin-right: 24px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
+    color: #808080;
+    
+    
 }
+
 
 .but{
     background-color: #fff;
