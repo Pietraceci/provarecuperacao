@@ -1,0 +1,27 @@
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 24px;
+    margin-right: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.but{
+    background-color: #fff;
+    border:1px solid #fff;
+    color: #EA1D2C;
+}
+
+.bu{
+    background-color:#EA1D2C;
+    border:1px solid #EA1D2C;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.h1{
+    color:	#4F4F4F;
+}

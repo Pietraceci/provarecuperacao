@@ -1,9 +1,12 @@
 import "./App.css"
-import News from './News'
+import Button from "./Button"
+import List from "./List"
 
 function App(){
     return(
-
-   )
+        <div className="menu0">
+            <Button />
+        </div>
+    )
 }
 export default App;
